@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #011d57;
+}
+body{
+  background-color: #fefcdd;
+  }
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   color:blue;
+  }
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color:green;
+  }
+hr {
+   border: 1cap solid #011d57;
+  }
+div {
+   border: 1cap solid #011d57;
+   transition-property:colour,width,background,border-radius; 
+     transition-duration: 0.5s;
+     transition-timing-function: linear;
+     transition-delay: 1s;
+  }
+   div:hover
+   {
+     background-color: #93e3fd;
+     border-radius: 10px;
+     width: 100%;
+     }
+  
+.grid img
+{
+  
+  border: 1cap solid #011d57;
+  padding: 10px;
+  margin: 10px;
+  width: 25%;
+  display: inline-block;
+  transition-property:colour,width,background,border-radius; 
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;
+  
+  }
+.grid img:hover
+{
+  background-color: #011d57;
+  border-radius: 10px;
+  width: 30%;
+  }
+.position
+{
+   position:fixed;
+  left: 0;
+   top: 0;
+   width: 100%;
+   background-color: #93e3fd;
+   border: 1cap solid #011d57;
+   padding: 10px;
+   margin: 10px;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-family: sans-serif;
+  height: 10px;
+   }
+.India
+{
+  border: 1cap solid #011d57;
+   padding: 1%;
+   margin: 10px;
+   width: 100%;
+  align-items: center
+   }
+  
